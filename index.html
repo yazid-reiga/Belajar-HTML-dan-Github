@@ -1,11 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Latihan Github</title>
+    <title>Website Portofolio Musthofa</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #4f46e5, #9333ea);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            margin-bottom: 1.5rem;
+        }
+
+        .card h2 {
+            margin-bottom: 1rem;
+            color: #4f46e5;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #4f46e5;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #4338ca;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: #1f2937;
+            color: white;
+            margin-top: 3rem;
+        }
+    </style>
 </head>
 <body>
-    <h1>Halo Aku Sedang Belajar git</h1>
+
+    <header>
+        <h1>Halo, Selamat Datang!</h1>
+        <p>Ini adalah contoh website portofolio sederhana dengan HTML dan CSS</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h2>Tentang Saya</h2>
+            <p>Saya sedang belajar membuat website yang menarik dan responsif menggunakan HTML dan CSS. Halaman ini dirancang agar bersih, rapi, dan mudah dibaca di berbagai ukuran layar.</p>
+        </div>
+
+        <div class="card">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>HTML5 (Struktur Web)</li>
+                <li>CSS3 (Desain & Tata Letak)</li>
+                <li>Responsif Mobile Design</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Hubungi Saya</h2>
+            <p>Tertarik untuk bekerja sama atau ingin, berdiskusi? Silakan klik tombol di bawah ini.</p>
+            <br>
+            <a href="mailto:email@contoh.com" class="btn">Kirim Email</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Website Saya. Dibuat dengan semangat belajar.</p>
+    </footer>
+
 </body>
 </html>
